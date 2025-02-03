@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> Dice Project </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--bootstrap links goes here-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="diceProject.css">
+</head>
+
+<body>
+    <!--bootstrap navbar start here-->
+    <nav class="navbar navbar-dark navbar-expand-sm bg-black sticky-top">
+        <div class="container-fluid">
+            <img class="img-fluid px-2" src="diceSVG/american-shield.svg" alt="American shield logo"
+                style="width: 60px;">
+            <a href="#" class="navbar-brand text-uppercase"> DiceStar </a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar"
+                title="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse" id="navbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active"> Home </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link"> Learn </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link"> Developers </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link"> Community </a>
+                    </li>
+                    <li class="nav-item dropdown"> <!--nav item with dropdown-->
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"> Account </a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-item"><a href="#" class="active text-dark text-decoration-none">
+                                    Settings </a></li>
+                            <li class="dropdown-item"><a href="#" class="active text-dark text-decoration-none"> Help
+                                </a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <!--navbar form-->
+                <form action="#" class="d-flex ms-auto">
+                    <label for="search" class="form-label visually-hidden"> N/A </label>
+                    <input type="search" class="me-2 form-control" id="search" placeholder="Find anything.....">
+                    <button type="submit" class="btn btn-outline-light"> Search </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!--navbar ends-->
+
+    <!--landing page start-->
+    <section class="text-center py-5" style="background-color: #050505;">
+        <div class=" container py-5">
+            <div class="row py-5">
+                <div class="col-lg-8 col-xl-9 ms-auto me-auto py-5">
+                    <span class=" display-3 welcome-message"> Welcome to </span>
+                    <h1 class="display-2 fw-bold mb-3"> Dice Refresh Project </h1>
+                    <p class="lead mb-4 text-light">By EJ </p>
+                    <a href="#" class="btn  btn-lg btn-outline-light"> Scroll Down </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- dice content goes here  -->
+    <div class="container-lg">
+        <h1 class="display-2 text-center mt-5">Refresh Me...</h1>
+        <hr>
+        <!--svg img 1-->
+        <div class="row">
+            <div class="dice col-md-6 ">
+                <p class="display-5 text-uppercase"> Player 1</p>
+                <img src="diceSVG/dice-six-faces-six.svg" alt="">
+            </div>
+
+            <!--svg img 2-->
+            <div class="dice col-md-6">
+                <p class="text-uppercase display-5"> player 2 </p>
+                <img src="diceSVG/dice-six-faces-six.svg" alt="">
+            </div>
+        </div>
+    </div>
+    <!--dice content ends-->
+
+    <!--footer goes here-->
+    <footer class="py-4 mt-5" style="background-color: #000000fb;">
+        <div class="container">
+            <div class="row pt-5 mb-4 mb-lg-5">
+                <!--About the company-->
+                <div class="col-12 col-lg-4 mb-4 mb-lg-0">
+                    <img class="img-fluid" src="diceSVG/american-shield.svg" alt="American shield logo"
+                        style="width: 70px;">
+                    <h3 class="text-uppercase fw-bold"> DiceStar.inc </h3>
+                    <p class="mb-1"> Beaumont </p>
+                    <p class="mb-1"> Texas, United States </p>
+                    <p class="mb-1"> Tel: (281)-###-#### </p>
+                    <p class="mb-0"><a href="#" class=" text-muted text-decoration-none"> example101@gmail.com </a></p>
+                    <div class="border-top mt-3 d-lg-none"></div>
+                </div>
+
+                <!--next column-->
+                <div class="col-6 col-lg-2">
+                    <h4> Quick Links </h4>
+                    <ul class="list-unstyled">
+                        <li class="mb-1">
+                            <a href="#" class="text-decoration-none text-dark"> Home </a>
+                        </li>
+                        <li class="mb-1">
+                            <a href="#" class="text-dark text-decoration-none"> Learn </a>
+                        </li>
+                        <li class="mb-1">
+                            <a href="#" class="text-dark text-decoration-none"> Docs </a>
+                        </li>
+                        <li class="mb-1">
+                            <a href="#" class="text-dark text-decoration-none"> Contact </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!--another column-->
+                <div class="col-6 col-lg-2">
+                    <h4> Community </h4>
+                    <ul class="list-unstyled">
+                        <li class="mb-1">
+                            <a href="#" class="text-decoration-none text-dark"> Donate </a>
+                        </li>
+                        <li class="mb-1">
+                            <a href="#" class="text-dark text-decoration-none"> Join </a>
+                        </li>
+                        <li class="mb-1">
+                            <a href="#" class="text-dark text-decoration-none"> View </a>
+                        </li>
+                        <li class="mb-1">
+                            <a href="#" class="text-dark text-decoration-none"> Events </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!--another column-->
+                <div class="col-6 col-lg-2">
+                    <h4> Settings </h4>
+                    <ul class="list-unstyled">
+                        <li class="mb-1">
+                            <a href="#" class="text-decoration-none text-dark" style="color: rgb(128, 25, 25);"> Account
+                            </a>
+                        </li>
+                        <li class="mb-1">
+                            <a href="#" class="text-dark text-decoration-none"> Billings </a>
+                        </li>
+                        <li class="mb-1">
+                            <a href="#" class="text-dark text-decoration-none special"> Help </a>
+                        </li>
+                        <li class="mb-1">
+                            <a href="#" class="text-dark text-decoration-none"> API key </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!--conclusion-->
+                <div class="border-top d-lg-none"></div> <!--act as a separation bar-->
+
+                <div class="d-block d-lg-flex justify-content-between py-3 py-lg-2 bg-body-tertiary mt-5">
+                    <div class="small mb-2 mb-lg-0 text-muted">
+                        &copy; 2025 DICESTAR. ALL right reserved.
+                    </div>
+                    <div class="small">
+                        <a href="#" class="d-block d-lg-inline text-muted ms-lg-2 mb-2 mb-lg-0"> Privacy Policy</a>
+                        <a href="#" class="d-block d-lg-inline text-muted ms-lg-2 mb-2 mb-lg-0"> Terms of Service </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--footer ends here-->
+
+    <!--bootstrap JavaScript goes here-->
+    <!--external script-->
+    <script src="diceProject2.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

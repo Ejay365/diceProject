@@ -1,0 +1,40 @@
+.container-lg {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+/* dice class */
+.dice {
+  display: inline-block;
+  text-align: center;
+}
+
+body {
+  background-color: #ffffff;
+}
+h1 {
+  font-family: cursive, "Lobster";
+  margin: 20px;
+  font-size: 8rem;
+  color: coral;
+}
+.dice p {
+  font-size: 3rem;
+  font-family: "indie Flower", cursive;
+  color: yellowgreen;
+}
+img {
+  width: 80%;
+}
+
+footer p,
+ul {
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.welcome-message {
+  color: white;
+  font-size: 30px;
+}
